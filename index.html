@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fabrica de sanguches</title>
+</head>
+<body>
+    <div class="form">
+    <label for="base">Elija la base de su sanguche(Pollo, Carne, Vegetariano):</label>
+    <input type="text" id="base">
+    <br>
+    <label for="pan">Ingrese el tipo de pan de su preferencia (Negro, Blanco, sin gluten):</label>
+    <input type="text" id="pan">
+    <br>
+    <label for="c-a">Ingrese condimentos y aderezos(separados por coma)</label>
+    <input type="text" id="c-a">
+    <button onclick="calcular()">Generar pedido</button>
+    </div>   
+
+
+    <div class="menu">
+        <div class="ing">
+            <span>Carne</span>
+            <br>
+            <span>Pollo</span>
+            <br>
+            <span>Vegetariano</span>
+            <br>
+            <span>Pan Blanco</span>
+            <br>
+            <span>Pan Negro</span>
+            <br>
+            <span>Pan Sin Gluten</span>
+            <br>
+            <span>Lechuga</span>
+            <br>
+            <span>Tomate</span>
+            <br>
+            <span>Queso</span>
+            <br>
+            <span>Cebolla</span>
+            <br>
+            <span>Mayonesa</span>
+            <br>
+            <span>Mostaza</span>
+            <br>
+        </div>
+        <div class="precios">
+            <span>200</span>
+            <br>
+            <span>150</span>
+            <br>
+            <span>100</span>
+            <br>
+            <span>50</span>
+            <br>
+            <span>60</span>
+            <br>
+            <span>75</span>
+            <br>
+            <span>10</span>
+            <br>
+            <span>15</span>
+            <br>
+            <span>20</span>
+            <br>
+            <span>15</span>
+            <br>
+            <span>10</span>
+            <br>
+            <span>5</span>
+            <br>
+            <span>5</span>
+            <br>
+        </div>
+    </div>
+    <span id="total">TOTAL</span>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
