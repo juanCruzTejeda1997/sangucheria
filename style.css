@@ -2,6 +2,10 @@
     border: solid black 2px;
     display: flex;
     width: 140px;
+    background-color: black;
+}
+.menu span{
+    color: aliceblue;
 }
 .precios{
     margin-left: 25px;
@@ -14,3 +18,10 @@ button{
     background-color: rgba(81, 81, 245, 0.76);
     color: white;
 }
+
+.form{
+    background-color: rgba(121, 121, 245, 0.658);
+    width: 450px;
+    margin: 0 auto;
+}
+
