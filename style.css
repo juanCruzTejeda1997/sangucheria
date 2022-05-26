@@ -1,4 +1,11 @@
+.body{
+    position: absolute;
+}
+
 .menu{
+    
+    right: -950px;
+    position: relative;
     border: solid black 2px;
     display: flex;
     width: 140px;
@@ -23,5 +30,16 @@ button{
     background-color: rgba(121, 121, 245, 0.658);
     width: 450px;
     margin: 0 auto;
+    position: relative;
+    top:10px;
+}
+
+.tot{
+    position: relative;
+    left: 450px;
+}
+#total{
+    position:relative;
+    left: 445px;
 }
 
